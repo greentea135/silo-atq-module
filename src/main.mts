@@ -160,9 +160,9 @@ function transformSilosToTags(chainId: string, silos: Silo[]): ContractTag[] {
     return {
       "Contract Address": `eip155:${chainId}:${silo.id}`,
       "Public Name Tag": `${truncatedNameText} Silo`,
-      "Project Name": "Silo Finance",
+      "Project Name": "Silo v1",
       "UI/Website Link": "https://app.silo.finance/",
-      "Public Note": `Silo's official ${silo.name} Silo contract.`,
+      "Public Note": `Silo v1's official ${silo.name} Silo contract.`,
     };
   });
 }
